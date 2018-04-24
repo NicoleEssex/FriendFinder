@@ -1,0 +1,25 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "full stack app with node, express, and api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoleEssex/FriendFinder.git"
+  },
+  "author": "Nicole Essex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoleEssex/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/NicoleEssex/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
+}
