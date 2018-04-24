@@ -155,6 +155,21 @@
     </div>
 
     <script type="text/javascript">
+
+    //grab data from api route
+    function runFriendQuery() {
+        var currentURL = window.location.origin;
+
+        $.ajax({url: currentURL + "/api/friends", method: "GET"})
+            .done (function(friendListData){
+                console.log("------------------------");
+                console.log("URL: " + currentURL + "/api/friends");
+                console.log(friendListData);
+                console.log("------------------------ ");
+            });
+    }
+    runFriendQuery();
+
     //On click listener function
     $("#add-btn").on("click", function(event) {
       event.preventDefault();
