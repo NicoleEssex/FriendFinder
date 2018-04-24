@@ -5,4 +5,9 @@ module.exports = function(app) {
         console.log(friendData);
         res.json(friendData);
     });
+
+    app.post('/api/friends', function(req,res){
+        var userInput = (req.body);
+        console.log(userInput);
+    });
 }
